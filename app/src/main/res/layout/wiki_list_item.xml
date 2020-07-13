@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp">
+
+    <RelativeLayout
+        android:id="@+id/news_list_item_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/news_item_ic"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/place_holder_ic" />
+
+        <TextView
+            android:id="@+id/news_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_toRightOf="@id/news_item_ic"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/news_item_publisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/news_item_title"
+            android:layout_toRightOf="@id/news_item_ic"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textSize="14dp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

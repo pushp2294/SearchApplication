@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SearchApplication</string>
+    <string name="search_hint">Your encyclopedia is here ....</string>
+    <string name="no_result_label">WikiPedia couldn\'t find anything.\n Please modify input!</string>
+</resources>
